@@ -39,6 +39,11 @@ namespace core::net {
             if (status == -1)
                 Panic("Error during sending data");
         }
+
+        void Devalidate() {
+            socket_.Devalidate();
+        }
+
     protected:
         core::net::Socket socket_;
     };

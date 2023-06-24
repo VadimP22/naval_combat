@@ -9,5 +9,6 @@
 #define DEBUG_SERVER_SOCKET
 #define DEBUG_MESSENGER
 #define DEBUG_NOTIFIER
+#define DEBUG_LISTENER
 
 #endif
